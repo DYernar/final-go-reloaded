@@ -35,7 +35,7 @@ func main() {
 					z01.PrintRune(char)
 				}
 				z01.PrintRune('\n')
-				break
+				continue
 			} else {
 				io.Copy(os.Stdout, file)
 				z01.PrintRune('\n')

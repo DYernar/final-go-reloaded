@@ -14,7 +14,7 @@ func main() {
 
 	student.AdvancedSortWordArr(result1, student.Compare)
 	student.AdvancedSortWordArr(result2, student.Compare)
-	student.AdvancedSortWordArr(result3, student.Compare)
+	student.AdvancedSortWordArr(result3, student.CompareBack)
 
 	fmt.Println("Expected result: [The computing consisted device each earliest fingers five hand of of the undoubtedly]")
 	fmt.Println("Your result    :", result1)
